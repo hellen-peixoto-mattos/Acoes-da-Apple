@@ -11,7 +11,7 @@ Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise mi
 > Em que época o mercado registra o maior volume de vendas?
 --------------------------------------------
 
-## Ambiente
+## Manipulação
 Bibliotecas utilizadas para análise.
 * numpy
 * pandas
