@@ -14,8 +14,10 @@ Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise mi
   - import **seaborn** as sns
   - import **yfinance** as yf
   - from **statsmodels.tsa.seasonal** import **seasonal_decompose**
- 
-<br>Os métodos utilizados para identificar essas tendências foram:
+ ## Tecnologia
+Os métodos utilizados para identificar essas tendências foram:
+* **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo
+* **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências.
 * **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados.
 * **Decomposição**: Técnica que separa a série temporal em componentes como tendência, sazonalidade e resíduos.
 
