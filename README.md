@@ -12,7 +12,7 @@ Este dataset inclui uma ampla gama de informações essenciais, como os preços 
 > Em que época o mercado registra o maior volume de vendas? 
 
 
-## Tecnologia
+## Tecnologias
 - Bibliotecas utilizadas:
   - import **matplotlib.pyplot** as plt; 
   - import **numpy** as np;
