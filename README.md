@@ -8,17 +8,17 @@ Este dataset inclui uma ampla gama de informações essenciais, como os preços 
 Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento.
 
 - Bibliotecas utilizadas:
-  - import **matplotlib.pyplot** as plt 
-  - import **numpy** as np
-  - import **pandas** as pd
-  - import **seaborn** as sns
-  - import **yfinance** as yf
+  - import **matplotlib.pyplot** as plt; 
+  - import **numpy** as np;
+  - import **pandas** as pd;
+  - import **seaborn** as sns;
+  - import **yfinance** as yf.
   - from **statsmodels.tsa.seasonal** import **seasonal_decompose**
  ## Tecnologia
 Os métodos utilizados para identificar essas tendências foram:
-* **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo
-* **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências.
-* **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados.
+* **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo;
+* **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências;
+* **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados;
 * **Decomposição**: Técnica que separa a série temporal em componentes como tendência, sazonalidade e resíduos.
 
 ## Visualização
