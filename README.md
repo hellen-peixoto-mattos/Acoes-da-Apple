@@ -23,9 +23,9 @@ Este dataset inclui uma ampla gama de informações essenciais, como os preços 
  
     
 Os métodos utilizados para identificar essas tendências foram:
-* **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo;
-* **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências;
-* **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados;
+* **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo.
+* **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências.
+* **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados.
 * **Decomposição**: Técnica que separa a série temporal em componentes como tendência, sazonalidade e resíduos.
 
 ## Visualização
