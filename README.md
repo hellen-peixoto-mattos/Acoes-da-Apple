@@ -5,8 +5,14 @@ Este dataset inclui uma ampla gama de informações essenciais, como os preços 
 
 > Apple Dataset: https://tinyurl.com/4ex3xda2
 
-Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento.
+<br>Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento. Essa análise visa responder às seguintes questões:
 
+> Quais são as tendências predominantes no mercado?
+
+> Em que época o mercado registra o maior volume de vendas? 
+
+
+## Tecnologia
 - Bibliotecas utilizadas:
   - import **matplotlib.pyplot** as plt; 
   - import **numpy** as np;
@@ -14,7 +20,8 @@ Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise mi
   - import **seaborn** as sns;
   - import **yfinance** as yf.
   - from **statsmodels.tsa.seasonal** import **seasonal_decompose**
- ## Tecnologia
+ 
+    
 Os métodos utilizados para identificar essas tendências foram:
 * **Análise de Séries Temporais**: Utilização de técnicas estatísticas para analisar padrões ao longo do tempo;
 * **Análise de Correlação:** Avaliação da relação entre variáveis para entender conexões e possíveis influências;
