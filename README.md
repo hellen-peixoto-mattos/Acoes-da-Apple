@@ -1,7 +1,33 @@
 # Preço de Ações da Apple
-O Conjunto de Dados de Preços de Ações da Apple é uma coleção abrangente que documenta o histórico detalhado do desempenho das ações da Apple ao longo do tempo.
-Este dataset inclui uma ampla gama de informações essenciais, como os preços de abertura, fechamento, máximos e mínimos diários, além do volume de negociações e ajustes decorrentes de dividendos.
+## Dados
+O Conjunto de Dados de **Preços de Ações da Apple** é uma coleção abrangente que documenta o histórico detalhado do desempenho das ações da Apple ao longo do tempo.
+Este dataset inclui uma ampla gama de informações essenciais, como os preços de **abertura**, **fechamento**, **máximos** e **mínimos diários**, além do **volume** de negociações e ajustes decorrentes de dividendos.
 
 > Apple Dataset: https://tinyurl.com/4ex3xda2
 
 Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento. Essa análise é fundamental para investidores e analistas que buscam compreender melhor os movimentos do mercado e tomar decisões informadas com base em dados históricos sólidos.
+
+- Bibliotecas utilizadas:
+  - import **matplotlib.pyplot** as plt 
+  - import **numpy** as np
+  - import **pandas** as pd
+  - import **seaborn** as sns
+  - import **yfinance** as yf
+  - from **statsmodels.tsa.seasonal** import **seasonal_decompose**
+ 
+<br>Os métodos utilizados para identificar essas tendências foram:
+* **Média Móvel**: Técnica que suaviza os dados, calculando a média de subconjuntos consecutivos dos dados.
+* **Decomposição**: Técnica que separa a série temporal em componentes como tendência, sazonalidade e resíduos.
+
+## Visualização
+**Correlação entre as variáveis:**
+
+![matriz_correlacao](https://github.com/hellen-peixoto-mattos/Acoes-da-Apple/assets/154277472/aa8a3217-44dc-4da9-a75c-1228c9716f4c)
+
+**Decomposição:**
+
+![decomposicao (1)](https://github.com/hellen-peixoto-mattos/Acoes-da-Apple/assets/154277472/33baf3c2-cc8e-417c-bbd3-b318deda7e56)
+
+**Conclusão:** 
+Há tendências de aumento nas vendas, tornando improvável uma redução significativa. A alta correlação entre os dados sugere que as vendas têm potencial para continuar em uma trajetória positiva ou se manter estáveis no futuro próximo. Isso indica que as condições atuais favorecem um cenário de crescimento contínuo ou estabilidade para as vendas.
+
