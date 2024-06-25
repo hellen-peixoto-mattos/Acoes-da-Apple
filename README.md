@@ -5,7 +5,7 @@ Este dataset inclui uma ampla gama de informações essenciais, como os preços 
 
 > Apple Dataset: https://tinyurl.com/4ex3xda2
 
-Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento. Essa análise é fundamental para investidores e analistas que buscam compreender melhor os movimentos do mercado e tomar decisões informadas com base em dados históricos sólidos.
+Utilizando esses dados disponibilizados no Kaggle, foi realizada uma análise minuciosa com o objetivo de prever futuras tendências de mercado, projeções de preços das ações e estimativas de seus valores de fechamento.
 
 - Bibliotecas utilizadas:
   - import **matplotlib.pyplot** as plt 
